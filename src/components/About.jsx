@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { BookOpen, Award, GraduationCap } from 'lucide-react';
+import { Award, BookOpen, GraduationCap } from 'lucide-react';
 
 const About = () => {
     const education = [
@@ -7,7 +7,7 @@ const About = () => {
             degree: "B.Tech - AI and ML",
             school: "RMD Engineering College",
             year: "2022 – 2026",
-            score: "7.04 CGPA"
+            score: "7.01 CGPA"
         },
         {
             degree: "Intermediate (12th)",
