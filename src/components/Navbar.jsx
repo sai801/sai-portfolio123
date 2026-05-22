@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { useEffect, useState } from 'react';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +26,7 @@ const Navbar = () => {
         <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-dark-900/80 backdrop-blur-md py-4 shadow-lg' : 'bg-transparent py-6'}`}>
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <a href="#" className="text-2xl font-bold font-sans tracking-tighter">
-                    Narasimha<span className="text-primary">.ai</span>
+                    Narasimha<span className="text-primary">sai</span>
                 </a>
 
                 {/* Desktop Menu */}
